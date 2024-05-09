@@ -1,0 +1,1149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.port .nav{
+    width: 100%;
+    height: 7VH;
+    background-color: lime;
+    display: flex;
+    position: fixed;
+   
+   
+}
+
+.port .nav .head-name{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: indigo;
+    font-weight: 100px;
+    font-family: cursive;
+    font-size: 20px;
+    
+
+   
+}
+
+.port .nav .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-left: 250px;
+    gap: 25px;
+    font-family: cursive;
+}
+
+.port .nav .list-it:hover{
+    background-color: rgb(170, 169, 169);
+    padding: 10px 10px;
+    cursor: pointer;
+    color: red;
+}
+
+.port .nav .cons{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 150px;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+
+.port .nav #icons:hover{
+    opacity: 0.5;
+}
+
+.port .header{
+    display: flex;
+   background-image: linear-gradient( to right, rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.623)),url(./img/pexels-alesia-kozik-6770610.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+ 
+}
+
+.port .header .img img{
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 10px 10px;
+    
+}
+
+.port .header .img img:hover{
+    opacity: 0.5;
+}
+
+.port .header .mid{
+    color: rgb(182, 180, 180);
+    padding: 5px 5px;
+}
+
+.port .header .down{
+    font-size: 12px;
+}
+
+.port .about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;justify-content: center;
+    padding: 20px 20px;
+    gap: 100px;
+}
+
+.port .about .photo{
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+
+}
+
+.port .about .about-text{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.port .about .head-about{
+    text-align: center;
+}
+
+.port .about .mid-about{
+    text-align: justify;
+    font-family: cursive;
+}
+
+.port .part-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+    background-color: indigo;
+    
+}
+
+.port .part-1 .skills{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    color: white;
+   
+}
+
+.port .head-skills{
+    padding: 10px 10px;
+}
+
+.port .part-1 .g-d{
+    padding: 10px 10px;
+    font-weight: 200px;
+    font-size: 27px;
+}
+
+.port .part-1 .output-1{
+    width: 400px;
+    height: 5vh;
+    background-color: white;
+    border: none;
+}
+
+.port .part-1 .percent-1{
+    width: 400px;
+    height: 5vh;
+    background-color: rgb(136, 130, 130);
+}
+
+
+.port .part-1 .price{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.port .head-price{
+    text-align: center;
+    padding-bottom: 10px ;
+    color: white;
+}
+
+.port .prices{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.port .part-1 .basic{
+    background-color: grey;
+    padding: 10px 10px;
+}
+.port .part-1 .pro{
+    background-color: grey;
+    padding: 10px 10px;
+}
+
+.port .part-1 .text{
+    padding: 20px 20px;
+    border-bottom: 1px solid rgb(218, 217, 217);
+    font-size: 20px;
+   
+}
+
+.port .part-1 span{
+    background-color: red;
+    padding: 2px 2px;
+    color: white;
+    border: none;
+    
+}
+
+.port .part-1 span:hover{
+    cursor: pointer;
+    background-color: white;
+    color: indigo;
+    padding: 5px 5px;
+}
+
+.port .part-1 .head-basic{
+    text-align: center;
+    background-color: rgb(177, 173, 173);
+    padding: 10px 10px 10px 5px ;
+}
+
+.port .service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0 200px  ;
+
+}
+
+.port .service .head-service{
+    padding-top: 15px;
+    color: indigo;
+}
+
+.port .service .head-service:hover{
+    color: red;
+    background-color: rgb(161, 161, 161);
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.port .services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 50px ;
+    padding-bottom: 20px; 
+}
+
+
+
+.port .services .box1{
+    width: 300px;
+    height: 70vh;
+    /* background-color: red; */
+    border-radius: 20px;
+}
+
+.port .services .box1 img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.port .services .box1 img:hover{
+    opacity: 0.5;
+   
+}
+
+.port .services .letter .head-letter{
+    font-size: 25px;
+    color: indigo;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    text-align: center;
+}
+
+.port .services .letter .mid-letter{
+    padding: 10px 10px;
+    color: indigo;
+    text-align: justify;
+    font-weight: 100px;
+    font-family: cursive;
+    font-size: 13px;
+}
+
+.port .services .head-letter:hover{
+    background-color: lime;
+}
+.port .services .mid-letter:hover{
+    background-color: lime;
+}
+
+.port .contacts{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: black;
+    color: white;
+}
+
+.port .contacts .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+    padding: 20px 15px;
+}
+
+.port .contacts .location{
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+
+
+.port .contacts .head-contact{
+    color: indigo;
+    border-bottom: 1px solid rgb(165, 163, 163);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.port .contacts .head-contact:hover{
+    background-color: gray;
+    color: red;
+    padding: 7px 7px;
+}
+
+.port .contacts .location .state{
+    color: gray;
+}
+.port .contacts .location .phone{
+    color: gray;
+   
+}
+.port .contacts .location .email{
+    color: gray;
+}
+
+.port .contacts .contacts-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.port .contacts .contact-text{
+    color: gray;
+    padding: 10px 10px;
+   
+}
+
+.port .contacts .contacts-contact input{
+    padding: 15px 15px;
+    width: 500px;
+   
+}
+
+button{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 15px;
+    gap: 10px;
+    font-size: 15px;
+}
+
+ @media screen and (max-width:320px){
+
+    .port .nav{
+        display: flex;
+        position: fixed;
+    }
+
+
+    .port .nav .head-name{
+      
+        font-weight: 10px;
+        font-family: sans-serif;
+        font-size: 11px;
+        padding-left: 2px;
+        padding-top: 3px;
+       
+    }
+
+    .port .nav .list{
+      
+        margin-left: 10px;
+        padding: 5px 0 2px;
+        gap: 3px;
+        font-family: sans-serif;
+        font-size: 11.7px;
+        font-weight: 700px;
+        
+    }
+
+    .port .nav .cons{
+        
+        padding-left: 12px;
+        padding-top: 13px;
+        gap: 5px;
+        font-size: 11px;
+
+    }
+
+    .port .header .head{
+        font-size: 20px;
+        margin-left: 70px;
+    }
+
+    .port .header .img img{
+        width: 150px;
+        height: 170px;
+        
+    }
+
+    .port .header .mid{
+        font-size: 13px;
+        margin-left: 30px;
+    }
+    
+    .port .header .down{
+        font-size: 11px;
+        margin-left: 35px;
+    }
+
+    .port .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .port .about .photo{
+        width: 220px;
+        height: 220px;
+        margin-top: 10px;
+    
+    }
+
+    .port .about .head-about{
+      font-size: 20px;
+    }
+
+    .port .about .mid-about{
+        font-size: 15px;
+
+    }
+
+    .port .part-1{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    
+    }
+
+    .port .part-1 .head-skills{
+        font-size: 25px;
+    }
+
+    .port .part-1 .g-d{
+        font-size: 20px;
+    }
+
+    .port .prices{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .port .part-1 .head-price{
+        font-size: 25px;
+    }
+    .port .part-1 .head-basic{
+        font-size: 20px;
+    }
+    .port .part-1 .text{
+        font-size: 15px;
+    }
+
+    .port .part-1 .output-1{
+        width: 300px;
+        height: 3vh;
+       
+    }
+    
+    .port .part-1 .percent-1{
+        width: 300px;
+        height: 3vh;
+       
+    }
+
+   
+   
+    .port .services{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+        padding-top: 50px ;
+         
+    }
+
+    .port .service .head-service{
+        font-size: 25px;
+    }
+
+    .port .services .box1 img{
+        height: 200px;
+        width: 200px;
+       margin-left: 50px;
+    }
+
+    .port .services .letter .head-letter{
+        font-size: 20px;
+    }
+    
+    .port .services .letter .mid-letter{
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    
+    .port .contact{
+        width: 320px;
+    }
+    .port .contact .head-contact{
+        font-size: 20px;
+    }
+    
+    .port .contacts .contact{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 20px 15px;
+    }
+
+    .port .contacts .location{
+        display: flex;
+        gap: 3px;
+        padding-top: 15px;
+        margin-left: 5px;
+    }
+
+    .port .contacts .contacts-contact input{
+        padding: 10px 15px;
+        width: 300px;
+    }
+
+    button{
+       
+        width: 170px;
+        height: 35px;
+        padding-top: 8px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+ }
+
+
+
+ @media screen and (max-width:360px){
+
+    .port .nav{
+        display: flex;
+        position: fixed;
+        height: 4vh;
+    }
+
+
+    .port .nav .head-name{
+      
+        font-weight: 10px;
+        font-family: sans-serif;
+        font-size: 13px;
+        padding-left: 2px;
+        padding-top: 3px;
+       
+    }
+
+    .port .nav .list{
+      
+        margin-left: 10px;
+        padding: 5px 0 2px;
+        gap: 3px;
+        font-family: sans-serif;
+        font-size: 12.5px;
+        font-weight: 700px;
+        
+    }
+
+    .port .nav .cons{
+        
+        padding-left: 13px;
+        padding-top: 10px;
+        gap: 6px;
+        font-size: 11px;
+
+    }
+
+    .port .header .head{
+        font-size: 20px;
+        margin-left: 70px;
+    }
+
+    .port .header .img img{
+        width: 150px;
+        height: 170px;
+        
+    }
+
+    .port .header .mid{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    
+    .port .header .down{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+
+    .port .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .port .about .photo{
+        width: 270px;
+        height: 300px;
+        margin-top: 10px;
+    
+    }
+
+    .port .about .head-about{
+      font-size: 20px;
+    }
+
+    .port .about .mid-about{
+        font-size: 15px;
+
+    }
+
+    .port .part-1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    
+    }
+
+    .port .part-1 .head-skills{
+        font-size: 25px;
+    }
+
+    .port .part-1 .g-d{
+        font-size: 20px;
+    }
+
+    .port .prices{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .port .part-1 .head-price{
+        font-size: 25px;
+    }
+    .port .part-1 .head-basic{
+        font-size: 20px;
+    }
+    .port .part-1 .text{
+        font-size: 15px;
+    }
+
+    .port .part-1 .output-1{
+        width: 300px;
+        height: 3vh;
+       
+    }
+    
+    .port .part-1 .percent-1{
+        width: 300px;
+        height: 3vh;
+       
+    }
+
+   
+   
+    .port .services{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        padding-top: 50px ;
+         
+    }
+
+    .port .service .head-service{
+        font-size: 25px;
+    }
+
+    .port .services .box1 img{
+        height: 270px;
+        width: 240px;
+       margin-left: 40px;
+    }
+
+    .port .services .letter .head-letter{
+        font-size: 24px;
+    }
+    
+    .port .services .letter .mid-letter{
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+    
+    .port .contact{
+        width: 360px;
+    }
+    .port .contact .head-contact{
+        font-size: 25px;
+        color: white;
+    }
+    
+    .port .contacts .contact{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        padding: 20px 15px;
+    }
+
+    .port .contacts .location{
+        display: flex;
+        gap: 10px;
+        padding-top: 15px;
+        margin-left: 5px;
+    }
+
+    .port .contacts .contacts-contact input{
+        padding: 10px 15px;
+        width: 300px;
+    }
+
+    button{
+       
+        width: 170px;
+        height: 35px;
+        padding-top: 8px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+ }
+
+
+ @media screen and (max-width:375px){
+
+    .port .nav{
+        display: flex;
+        position: fixed;
+        height: 4vh;
+    }
+
+
+    .port .nav .head-name{
+      
+        font-weight: 10px;
+        font-family: sans-serif;
+        font-size: 15px;
+        padding-left: 2px;
+        padding-top: 3px;
+       
+    }
+
+    .port .nav .list{
+      
+        margin-left: 10px;
+        padding: 5px 0 2px;
+        gap: 3px;
+        font-family: sans-serif;
+        font-size: 13px;
+        font-weight: 700px;
+        
+    }
+
+    .port .nav .cons{
+        
+        padding-left: 12px;
+        padding-top: 10px;
+        gap: 3px;
+        font-size: 10px;
+
+    }
+
+    .port .header .head{
+        font-size: 20px;
+        margin-left: 70px;
+    }
+
+    .port .header .img img{
+        width: 150px;
+        height: 170px;
+        
+    }
+
+    .port .header .mid{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    
+    .port .header .down{
+        font-size: 14px;
+        margin-left: 35px;
+    }
+
+    .port .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .port .about .photo{
+        width: 270px;
+        height: 300px;
+        margin-top: 10px;
+    
+    }
+
+    .port .about .head-about{
+      font-size: 20px;
+    }
+
+    .port .about .mid-about{
+        font-size: 15px;
+
+    }
+
+    .port .part-1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    
+    }
+
+    .port .part-1 .head-skills{
+        font-size: 25px;
+    }
+
+    .port .part-1 .g-d{
+        font-size: 20px;
+    }
+
+    .port .prices{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .port .part-1 .head-price{
+        font-size: 25px;
+    }
+    .port .part-1 .head-basic{
+        font-size: 20px;
+    }
+    .port .part-1 .text{
+        font-size: 15px;
+    }
+
+    .port .part-1 .output-1{
+        width: 300px;
+        height: 3vh;
+       
+    }
+    
+    .port .part-1 .percent-1{
+        width: 300px;
+        height: 3vh;
+       
+    }
+
+   
+   
+    .port .services{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        padding-top: 50px ;
+         
+    }
+
+    .port .service .head-service{
+        font-size: 25px;
+    }
+
+    .port .services .box1 img{
+        height: 270px;
+        width: 240px;
+       margin-left: 40px;
+    }
+
+    .port .services .letter .head-letter{
+        font-size: 24px;
+    }
+    
+    .port .services .letter .mid-letter{
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+    
+    .port .contact{
+        width: 375px;
+    }
+    .port .contact .head-contact{
+        font-size: 25px;
+        color: white;
+    }
+    
+    .port .contacts .contact{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        padding: 20px 15px;
+    }
+
+    .port .contacts .location{
+        display: flex;
+        gap: 10px;
+        padding-top: 15px;
+        margin-left: 5px;
+    }
+
+    .port .contacts .contacts-contact input{
+        padding: 10px 15px;
+        width: 300px;
+    }
+
+    button{
+       
+        width: 170px;
+        height: 35px;
+        padding-top: 8px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+ }
+
+
+ @media screen and (max-width:414px){
+
+    .port .nav{
+        display: flex;
+        position: fixed;
+        height: 4vh;
+    }
+
+
+    .port .nav .head-name{
+      
+        font-weight: 10px;
+        font-family: sans-serif;
+        font-size: 15px;
+        padding-left: 2px;
+        padding-top: 3px;
+       
+    }
+
+    .port .nav .list{
+      
+        margin-left: 10px;
+        padding: 5px 0 2px;
+        gap: 5px;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: 700px;
+        
+    }
+
+    .port .nav .cons{
+        
+        padding-left: 13px;
+        padding-top: 14px;
+        gap: 6px;
+        font-size: 11px;
+
+    }
+
+    .port .header .head{
+        font-size: 20px;
+        margin-left: 70px;
+    }
+
+    .port .header .img img{
+        width: 150px;
+        height: 170px;
+        
+    }
+
+    .port .header .mid{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    
+    .port .header .down{
+        font-size: 14px;
+        margin-left: 35px;
+    }
+
+    .port .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .port .about .photo{
+        width: 270px;
+        height: 300px;
+        margin-top: 10px;
+    
+    }
+
+    .port .about .head-about{
+      font-size: 20px;
+    }
+
+    .port .about .mid-about{
+        font-size: 15px;
+
+    }
+
+    .port .part-1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    
+    }
+
+    .port .part-1 .head-skills{
+        font-size: 25px;
+    }
+
+    .port .part-1 .g-d{
+        font-size: 20px;
+    }
+
+    .port .prices{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .port .part-1 .head-price{
+        font-size: 25px;
+    }
+    .port .part-1 .head-basic{
+        font-size: 20px;
+    }
+    .port .part-1 .text{
+        font-size: 15px;
+    }
+
+    .port .part-1 .output-1{
+        width: 300px;
+        height: 3vh;
+       
+    }
+    
+    .port .part-1 .percent-1{
+        width: 300px;
+        height: 3vh;
+       
+    }
+
+   
+   
+    .port .services{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        padding-top: 50px ;
+         
+    }
+
+    .port .service .head-service{
+        font-size: 25px;
+    }
+
+    .port .services .box1 img{
+        height: 270px;
+        width: 240px;
+       margin-left: 40px;
+    }
+
+    .port .services .letter .head-letter{
+        font-size: 24px;
+    }
+    
+    .port .services .letter .mid-letter{
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+    
+    .port .contact{
+        width: 414px;
+    }
+    .port .contact .head-contact{
+        font-size: 25px;
+        color: white;
+    }
+    
+    .port .contacts .contact{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        padding: 20px 15px;
+    }
+
+    .port .contacts .location{
+        display: flex;
+        gap: 10px;
+        padding-top: 15px;
+        margin-left: 5px;
+    }
+
+    .port .contacts .contacts-contact input{
+        padding: 10px 15px;
+        width: 300px;
+    }
+
+    button{
+       
+        width: 170px;
+        height: 35px;
+        padding-top: 8px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+ }
